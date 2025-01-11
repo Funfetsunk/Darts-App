@@ -1,0 +1,10 @@
+<resources>
+    <color name="colorPrimary">#FF5722</color> <!-- Deep Orange -->
+    <color name="colorPrimaryDark">#E64A19</color> <!-- Darker Deep Orange -->
+    <color name="colorAccent">#FFC107</color> <!-- Amber -->
+    <color name="colorBackground">#212121</color> <!-- Dark Gray -->
+    <color name="colorTextPrimary">#FFFFFF</color> <!-- White -->
+    <color name="colorTextSecondary">#B0BEC5</color> <!-- Light Gray -->
+    <color name="colorButtonBackground">#FF5722</color> <!-- Deep Orange -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- White -->
+</resources>
