@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/colorBackground">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Game Mode"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_301_single"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play 301 - Single Player" />
+
+    <Button
+        android:id="@+id/btn_301_double"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play 301 - Two Players"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_501_single"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play 501 - Single Player"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_501_double"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play 501 - Two Players"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

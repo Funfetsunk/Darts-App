@@ -3,28 +3,29 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:gravity="center_horizontal"
     android:background="@color/colorBackground">
 
     <TextView
-        android:id="@+id/tv_score_input"
+        android:id="@+id/tv_points_left_player1"
         style="@style/TextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Score Input: "
-        android:textSize="30sp"
+        android:text="Player 1: 501"
+        android:textSize="36sp"
         android:gravity="center"
         android:padding="16dp" />
 
     <TextView
-        android:id="@+id/tv_points_left"
+        android:id="@+id/tv_points_left_player2"
         style="@style/TextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Points Left: 501"
-        android:textSize="36sp" <!-- Larger text for prominence -->
-    android:gravity="center"
-    android:padding="16dp"
-    android:textColor="@color/colorAccent" /> <!-- Highlighted color -->
+        android:text="Player 2: 501"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/tv_checkout"
@@ -35,6 +36,16 @@
         android:textSize="24sp"
         android:gravity="center"
         android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tv_score_input"
+        style="@style/TextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score Input: "
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="16dp" />
 
     <GridLayout
         android:layout_width="match_parent"
@@ -103,4 +114,52 @@
         <Button
             android:id="@+id/btn_8"
             style="@style/ButtonStyle"
-            android
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="8" />
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="9" />
+        <Button
+            android:id="@+id/btn_0"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="0" />
+        <Button
+            android:id="@+id/btn_delete"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Delete" />
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="3"
+            android:text="Submit" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_return_to_menu"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Main Menu"
+        android:visibility="gone"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
